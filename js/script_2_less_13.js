@@ -31,3 +31,13 @@ answ[1] = prompt(`Your Last Name?`,``);
 answ[2] = prompt(`Your age?`,``);
 
 console.log(answ);
+
+
+//интерполяция. Для её использования необходимо пользоваться `` .
+//По сути это удобное использование  переменных в других переменных
+let category = `toys`;
+console.log(`https://someurl./${category}/5`);//внесение переменных через $
+
+//так же можно интерполировать и любые другие структуры
+let user =`Anton`;
+alert(`Hi everybody,${user}`);
