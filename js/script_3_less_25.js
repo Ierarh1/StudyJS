@@ -57,3 +57,14 @@ const calc2 = (a,b) => {return a+b};
 
 console.log(calc1(22,15))
 console.log(calc2(22,15))
+
+
+//Правильны пример работы с функциями
+const usdCurr = 28;
+const eurCurr = 33;
+function convert(curr, amount)
+{
+    console.log(curr * amount);
+};
+convert(usdCurr, 500);
+convert(eurCurr,500);
