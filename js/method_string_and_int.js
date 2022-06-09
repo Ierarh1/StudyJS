@@ -52,3 +52,13 @@ let substingtest = logg_test.substring(2,10);
 let logg_test2 = `Helloy nigga`;
 //указываем с 1)КАКОГО СИМВОЛА ВЫРЕЗАТЬ а  уже вторым аргументом 2)СКОЛЬКО надо вырезать
 console.log(logg_test2.substr(5,4));
+
+//MATH - большая библиотека математических операций
+//к примеру округление
+const num = 12.2;
+console.log(Math.round(num));
+
+//Парсинг строки, и попытка привести его к числу
+const test2 = `21.2`;
+console.log(parseInt(test2));//будет 21 но уже как число
+console.log(parseFloat(test2));//вернёт значения с плавающей точкой будет 21,2
